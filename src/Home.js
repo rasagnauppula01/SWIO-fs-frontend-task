@@ -51,7 +51,7 @@ function Home() {
     <div className="home">
 
       <h1>
-        Sleeve <span>2</span>
+        Sleeve <span style={{fontWeight:"200"}}>2</span>
       </h1>
       <h4>The ultimate music accessory for your Mac.</h4>
       <br></br>
