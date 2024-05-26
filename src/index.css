@@ -1,13 +1,216 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'ui-sans-serif', 'system-ui', 'sans-serif';
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+h1{
+  font-size: 90px;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h4{
+  font-size: 50px;
+  text-align: center;
+}
+
+.homediv2{
+  padding: 0.8rem;
+  background-color: black;
+  border:none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.bg1{
+  display:flex;
+  justify-content:space-evenly;
+  border-radius: 1rem;
+  width: 79rem;
+  margin-left: 5rem;
+  height: 20rem;
+  position: absolute;
+  margin-top: 3rem;
+}
+
+
+
+
+
+.featurediv1{
+  width: 35rem;
+  background-color: #edf5fcff;
+  height: 23rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  margin-left: -1290px;
+  font-weight: 200;
+  
+}
+.featurediv1 h2{
+  font-size: 28px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.featurediv1 p{
+  font-size: 1.5rem;
+  width: 50rem;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size:large;
+  font-size: 1.125rem;
+}
+
+.fmg1{
+ width: 12rem;
+ transform: rotate(-85deg,0deg);
+ opacity: 0.5;
+ position:absolute;
+ top:195%;
+ left: 31rem;
+ border:gray;
+ overflow: hidden;
+}
+.fmg2{
+position: relative;
+transform: rotate(7deg);
+margin-left: 2rem;
+top:-9rem;
+z-index: 1;
+left: 18rem  ;
+}
+.fmg3{
+  position: relative;
+  transform: rotate(9deg);
+  z-index: 2;
+  left: 4rem;
+  top:-21%
+}
+.featurediv2{
+  width: 33rem;
+  background-color:#f2ffffff;
+  height: 23rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  margin-left: 5rem;
+  border: 1px solid gainsboro;
+  font-weight: 200;
+  
+}
+.fmg4{
+  position: relative;
+  transform: rotate(9deg);
+  z-index: 2;
+  left: 17rem;
+  top:-19rem
+}
+.fmg5{
+  position: relative;
+  transform: rotate(-8deg);
+  z-index: 1;
+  left: 10rem;
+  top:-8rem
+}
+.featurediv2 h2{
+  font-size: 28px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+.featurediv2 p{
+  font-size: 1.5rem;
+  width: 15rem;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size:large;
+}
+
+
+.featurediv3{
+  width: 40rem;
+  background-color:#faebebff;
+  height: 28rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  margin-left: 5rem;
+  border: 0.5px solid grey;
+}
+.featurediv4{
+  width: 40rem;
+  background-color:#f5faf5ff;
+  height: 28rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  margin-left: 5rem;
+  border: 0.5px solid grey;
+}
+
+
+
+
+
+
+.aabb{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.aabb::-webkit-scrollbar {
+  width: 0px;  
+}
+.aabb::-webkit-scrollbar-track {
+  background: none; 
+  border: none; 
+}
+.aabb::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px; 
+  border: none; 
+}
+#img1,#img2,#img3{
+  margin-left: -2px;
+  z-index: 1;
+  margin-top: -50px;
+  display: grid;
+}
+#img2{
+  margin-left: 55px;
+  z-index: 2;
+  margin-top: -100px;
+}
+#img3{
+  z-index: 3;
+  margin-left: 95px;
+  margin-top: -80px;
+}
+.art{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 120%;
+  height: 590px;
+  background-image: url(./assets/images/wallpaper.jpg);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin-left: -20px;
+  
+}
+#scroll-section{
+  display: flex;
+  margin-left: -1200px;
+  margin-top: 120%;
+}
+.art::-webkit-scrollbar {
+  width: 1px;  
+}
+.art::-webkit-scrollbar-track {
+  background: none;  
+  border: none;  
+}
+.art::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 10px; 
+  border: none;  
 }
