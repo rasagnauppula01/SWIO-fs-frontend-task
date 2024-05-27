@@ -98,9 +98,9 @@ function Home() {
             height={25}
             width={25}
             alt="appleimg"
-            style={{marginTop:"5px"}}
+            style={{marginTop:"1px",float: "left",marginLeft:"15px"}}
           ></img>
-         <span style={{marginTop:"-25px"}}>Mac App Store</span> 
+         <span style={{marginTop:"-20px",marginLeft:"-15px",fontSize:"18px"}}>Mac App Store</span> 
         </div>
         <div
           className="homediv2"
@@ -114,13 +114,14 @@ function Home() {
             color: "black",
             cursor: "pointer",
             textAlign:"center",
-            marginTop:"5px"
+            marginTop:"5px",
+            fontSize:"18px"
           }}
         >
           Buy Directly
           <button
             style={{
-              borderRadius: "10px",
+              borderRadius: "15px",
               backgroundColor: "black",
               color: "white",
               border: "none",
@@ -128,7 +129,7 @@ function Home() {
               height: "25px",
               width: "50px",
               cursor: "pointer",
-              marginTop:"10px"
+              marginTop:"5px"
             }}
           >
             $5.99
@@ -137,7 +138,7 @@ function Home() {
         </div>
       </div>
       <br></br>
-      <p style={{ color: "rgb(90, 89, 89)", textAlign: "center" }}>
+      <p style={{ color: "rgb(89, 80, 80)", textAlign: "center", opacity:"0.5" }}>
         No subscriptions. No in-app <br /> purchases. Requires macOS 11 Big Sur{" "}
         <br /> or later.
       </p>
@@ -146,10 +147,10 @@ function Home() {
       <div
         className="homediv3"
         style={{
-          border: "0.5px solid black",
-          height: "40px",
+          border: "1px solid #e5e7eb",
+          height: "50px",
           width: "600px",
-          borderRadius: "20px",
+          borderRadius: "30px",
           display: "flex",
           marginLeft: "470px",
           justifyContent: "center",
@@ -162,9 +163,9 @@ function Home() {
           <img
             src={image4}
             alt="div"
-            height={65}
-            width={65}
-            style={{ marginTop: "-10px" }}
+            height={62}
+            width={70}
+            style={{ marginTop: "5px" }}
           ></img>
         </div>
         <div>
@@ -198,7 +199,7 @@ function Home() {
       <br />
       <br />
       <br />
-      <p style={{ color: "rgba(59,130,246,2.5)", textAlign: "center" }}>
+      <p style={{ color: "rgba(59,130,246,2.5)", textAlign: "center", fontWeight:"600" }}>
         NEW IN{" "}
         <button
           style={{
@@ -294,7 +295,7 @@ function Home() {
         {/* artwork */}
 
         <div id="scroll-section">
-          {/* for theory part */}
+          
           <div
             className="aabb"
             ref={div1Ref}
@@ -717,7 +718,7 @@ function Home() {
                   style={{
                     marginTop: "150px",
                     borderRadius: "10px",
-                    border: "2px solid black",
+                    border: "2px solid transparent",
                   }}
                 ></img>
                 <img
@@ -725,7 +726,7 @@ function Home() {
                   style={{
                     marginTop: "30px",
                     borderRadius: "10px",
-                    border: "2px solid black",
+                    border: "2px solid transparent",
                   }}
                 ></img>
                 <img
@@ -733,7 +734,7 @@ function Home() {
                   style={{
                     marginTop: "30px",
                     borderRadius: "10px",
-                    border: "2px solid black",
+                    border: "2px solid transparent",
                   }}
                 ></img>
               </div>
@@ -744,7 +745,7 @@ function Home() {
                   style={{
                     marginTop: "280px",
                     borderRadius: "10px",
-                    border: "2px solid black",
+                    border: "2px solid transparent",
                   }}
                 ></img>
                 <img
@@ -752,7 +753,7 @@ function Home() {
                   style={{
                     marginTop: "30px",
                     borderRadius: "10px",
-                    border: "2px solid black",
+                    border: "2px solid transparent",
                   }}
                 ></img>
               </div>
@@ -764,7 +765,7 @@ function Home() {
                     marginTop: "80px",
                     zIndex: "2",
                     borderRadius: "10px",
-                    border: "2px solid black",
+                    border: "2px solid transparent",
                   }}
                 ></img>
                 <img
@@ -773,7 +774,8 @@ function Home() {
                     marginTop: "-30px",
                     zIndex: "1",
                     borderRadius: "10px",
-                    border: "2px solid black",
+                    border: "2px solid transparent",
+                    marginLeft: "10px",
                   }}
                 ></img>
               </div>
@@ -787,7 +789,7 @@ function Home() {
                     marginLeft: "0px",
                     zIndex: "3",
                     borderRadius: "10px",
-                    border: "2px solid black",
+                    border: "2px solid transparent",
                   }}
                 ></img>
                 <img
@@ -795,10 +797,10 @@ function Home() {
                   style={{
                     position: "relative",
                     marginTop: "-40px",
-                    marginLeft: "0px",
+                    marginLeft: "10px",
                     zIndex: "2",
                     borderRadius: "10px",
-                    border: "2px solid black",
+                    border: "2px solid transparent",
                   }}
                 ></img>
                 <img
@@ -806,10 +808,10 @@ function Home() {
                   style={{
                     position: "relative",
                     marginTop: "-30px",
-                    marginLeft: "0px",
+                    marginLeft: "30px",
                     zIndex: "1",
                     borderRadius: "10px",
-                    border: "2px solid black",
+                    border: "2px solid transparent",
                   }}
                 ></img>
               </div>
@@ -840,7 +842,7 @@ function Home() {
               style={{
                 border: "1px solid transparent",
                 width: "500px",
-                height: "430px",
+                height: "415px",
                 backgroundColor: "#faebebff",
                 borderRadius: "10px",
                 padding:"20px"
@@ -868,7 +870,7 @@ function Home() {
               style={{
                 border: "1px solid transparent",
                 width: "500px",
-                height: "430px",
+                height: "415px",
                 backgroundColor: "#f5faf5ff",
                 borderRadius: "10px",
                 padding:"20px"
