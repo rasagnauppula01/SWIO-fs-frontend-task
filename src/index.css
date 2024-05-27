@@ -70,8 +70,8 @@ h4{
  transform: rotate(-85deg,0deg);
  opacity: 0.5;
  position:absolute;
- top:195%;
- left: 31rem;
+ top:196%;
+ left: 30rem;
  border:gray;
  overflow: hidden;
 }
@@ -112,8 +112,8 @@ left: 18rem  ;
   position: relative;
   transform: rotate(-8deg);
   z-index: 1;
-  left: 10rem;
-  top:-8rem
+  left: 10.5rem;
+  top:-10.9rem
 }
 .featurediv2 h2{
   font-size: 28px;
@@ -213,4 +213,41 @@ left: 18rem  ;
   background-color: #888; 
   border-radius: 10px; 
   border: none;  
+}
+
+
+.btt{
+  border: 2px solid transparent;
+  height: 40px;
+  width: 129px;
+  color: black;
+  border-radius: 20px;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ cursor: pointer;
+ text-align: center;
+ font-weight:500;
+}
+.btt:hover{
+  background-color:#ffffffff;
+  border: 1px solid #888;
+ 
+}
+.btt1{
+  border: 2px solid transparent;
+  height: 40px;
+  width: 169px;
+  color: black;
+  border-radius: 20px;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+ cursor: pointer;
+ text-align: center;
+ font-weight:500;
+}
+.btt1:hover{
+  background-color:#ffffffff;
+  border: 1px solid #888;
 }

@@ -3,7 +3,6 @@ import image1 from "./assets/images/AppMusic.png";
 import image2 from "./assets/images/AppSpotify.png";
 import image3 from "./assets/images/AppDoppler.png";
 import image4 from "./assets/images/search image.png";
-
 import image9 from "./assets/images/ThemeUI.png";
 import image10 from "./assets/images/ThemeUIActive.png";
 import image11 from "./assets/images/ThemeExport.png";
@@ -83,14 +82,15 @@ function Home() {
           className="homediv1"
           style={{
             border: "1px solid white",
-            height: "40px",
+            height: "38px",
             width: "180px",
             borderRadius: "10px",
             padding: "10px",
             backgroundColor: "black",
             color: "white",
             cursor: "pointer",
-            textAlign:"center"
+            textAlign:"center",
+            marginTop:"5px"
           }}
         >
           <img
@@ -98,21 +98,23 @@ function Home() {
             height={25}
             width={25}
             alt="appleimg"
+            style={{marginTop:"5px"}}
           ></img>
-          Mac App Store
+         <span style={{marginTop:"-25px"}}>Mac App Store</span> 
         </div>
         <div
           className="homediv2"
           style={{
             border: "0.5px solid black",
-            height: "40px",
+            height: "38px",
             width: "180px",
             borderRadius: "10px",
             padding: "10px",
             backgroundColor: "white",
             color: "black",
             cursor: "pointer",
-            textAlign:"center"
+            textAlign:"center",
+            marginTop:"5px"
           }}
         >
           Buy Directly
@@ -125,7 +127,8 @@ function Home() {
               marginLeft: "10px",
               height: "25px",
               width: "50px",
-              cursor: "pointer"
+              cursor: "pointer",
+              marginTop:"10px"
             }}
           >
             $5.99
@@ -837,26 +840,27 @@ function Home() {
               style={{
                 border: "1px solid transparent",
                 width: "500px",
-                height: "400px",
-                backgroundColor: "rgb(256, 0, 0, 0.3)",
+                height: "430px",
+                backgroundColor: "#faebebff",
                 borderRadius: "10px",
+                padding:"20px"
               }}
             >
               <img
-                src="https://replay.software/sleeve/images/IntegrationLastfmDark@2x.png"
+                src={image24}
                 height={250}
                 width={450}
               ></img>
-              <p style={{ color: "#750D0D", marginLeft: "27%",fontsize: "1.5rem", fontWeight:"500" ,font:"24px"}}>
+              <p style={{ color: "#750D0D", marginLeft: "25%",fontSize:"25px"}}>
                 Sleeve integrates with
                 <br />
-                Last.fm so you never miss a<br />
+            Last.fm so you never miss a<br />
                 track. Simply sign in and
                 <br />
                 start scrobbling.
               </p>
               <br></br>
-              <h6 style={{ color: "#750D0D", marginLeft: "27%" ,font:"16px"}}>
+              <h6 style={{ color: "#750D0D", marginLeft: "27%" ,fontSize:"14px", opacity:"0.5"}}>
                 Last.fm account required
               </h6>
             </div>
@@ -864,17 +868,18 @@ function Home() {
               style={{
                 border: "1px solid transparent",
                 width: "500px",
-                height: "400px",
-                backgroundColor: "rgba(0,255,0,0.1)",
+                height: "430px",
+                backgroundColor: "#f5faf5ff",
                 borderRadius: "10px",
+                padding:"20px"
               }}
             >
               <img
-                src="https://replay.software/sleeve/images/IntegrationSpotifyDark@2x.png"
+                src={image25}
                 height={250}
                 width={450}
               ></img>
-              <p style={{ color: "#1C5D1B", marginLeft: "27%" }}>
+              <p style={{ color: "#1C5D1B", marginLeft: "20%" ,fontSize:"25px"}}>
                 With Sleeve 2 you can now like
                 <br />
                 tracks in Spotify, without ever
@@ -884,7 +889,7 @@ function Home() {
                 Sleeve.
               </p>
               <br></br>
-              <h6 style={{ color: "#1C5D1B", marginLeft: "27%" }}>
+              <h6 style={{ color: "#1C5D1B", marginLeft: "25%", fontSize:"14px", opacity:"0.5" }}>
                 A free Spotify Developer account is required
               </h6>
             </div>
@@ -894,14 +899,15 @@ function Home() {
           <div
             style={{
               height: "80px",
-              width: "980px",
+              width: "1040px",
               border: "4px solid transparent",
               color: "black",
-              padding: "25px",
+              padding: "27px",
               display: "flex",
               marginLeft: "40px",
               backgroundColor: "#f7f9faff",
               borderRadius: "10px",
+
             }}
           >
             <div>
@@ -909,7 +915,7 @@ function Home() {
                 src="https://replay.software/sleeve/images/AppMusicDark@2x.png"
                 height={70}
                 width={70}
-                style={{ marginLeft: "30px" }}
+                style={{ marginLeft: "40px" }}
               ></img>
               <img
                 src="https://replay.software/sleeve/images/AppSpotifyDark@2x.png"
@@ -942,13 +948,13 @@ function Home() {
           </div>
           <br />
           <br />
-          <div style={{ display: "flex", marginLeft: "40px", gap: "30px" }}>
+          <div style={{ display: "flex", marginLeft: "40px", gap: "50px" }}>
             <div
               style={{
                 display: "flex",
                 gap: "30px",
                 height: "200px",
-                width: "500px",
+                width: "520px",
                 border: "5px solid transparent",
                 backgroundColor: "#f7f9faff",
                 borderRadius: "10px",
@@ -971,7 +977,7 @@ function Home() {
                 ></img>
               </div>
               <div>
-                <p style={{ color: "black" }}>
+                <p style={{ color: "black",fontSize:"20px" }}>
                   View the quick guide to
                   <br />
                   connecting Sleeve to your Spotify
@@ -1001,14 +1007,14 @@ function Home() {
                   src="https://replay.software/sleeve/images/AppSleeveDark@2x.png"
                   height={80}
                   width={80}
-                  style={{ marginLeft: "-80px" }}
+                  style={{ marginLeft: "-50px" }}
                 ></img>
                 <span
                   style={{
                     position: "absolute",
                     color: "black",
                     marginTop: "30px",
-                    marginLeft: "20px",
+                    marginLeft: "10px",
                   }}
                 >
                   +
@@ -1020,7 +1026,7 @@ function Home() {
                     border: "2px solid rgb(42, 41, 41)",
                     borderStyle: "dashed",
                     borderRadius: "20px",
-                    marginLeft: "50px",
+                    marginLeft: "62px",
                     marginTop: "-75px",
                     color: "black",
                     justifyContent: "center",
@@ -1033,7 +1039,7 @@ function Home() {
                 </div>
               </div>
               <div>
-                <p style={{ color: "black" }}>
+                <p style={{ color: "black" , fontSize:"20px"}}>
                   Want to use Sleeve
                   <br />
                   with your favorite
